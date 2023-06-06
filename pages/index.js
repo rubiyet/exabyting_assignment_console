@@ -1,9 +1,11 @@
-import Image from 'next/image'
+import TopBannerWithDemo from "@/components/TopBannerWithDemo";
+import TopTable from "@/components/topTable";
 
 export default function Home() {
   return (
     <div>
-      <h1>Next.js Image Component</h1>
-      </div>
-  )
+      <TopBannerWithDemo />
+      <TopTable />
+    </div>
+  );
 }

@@ -5,14 +5,14 @@ import Button from "./atoms/Button";
 export default function Header() {
   const navList = ["Product", "About Us", "Contacts"];
   return (
-    <div className="h-[5.75rem] bg-white border-b flex items-center px-[7.5rem]">
+    <div className="h-[5.813rem] bg-white border-b flex items-center px-[7.5rem]">
       <div className="flex items-center space-x-28">
         <Image src={Logo} alt="logo" width={200} height={200} />
-        <div className="flex ml-auto">
+        <div className="flex ml-auto font-medium leading-4">
           {navList.map((item, index) => (
             <div
               key={index}
-              className="text-[#4A4A4A] text-[1.125rem] ml-[2.5rem] font-medium"
+              className="text-[#181F1B] text-[1.25rem] ml-[2.5rem]"
             >
               {item}
             </div>
@@ -24,7 +24,7 @@ export default function Header() {
           Get Started
         </Button>
 
-        <Button className="bg-white text-black border border-black">
+        <Button className="bg-white text-[#181F1B] border border-[#181F1B]">
           Login
         </Button>
         </div>
