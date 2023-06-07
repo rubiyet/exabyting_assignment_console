@@ -4,8 +4,10 @@ import Table from "./Table";
 export default function Index() {
   return (
     <>
-      <TableTitle />
-      <Table />
+      <div className="space-y-12">
+        <TableTitle />
+        <Table />
+      </div>
     </>
   );
 }
