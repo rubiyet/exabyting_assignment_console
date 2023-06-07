@@ -9,7 +9,6 @@ To create a Next.js app, follow these steps:
 1. Open your terminal or command prompt.
 2. Navigate to the directory where you want to create your app.
 3. Run the following command to create a new Next.js app: npx create-next-app exabyting_assignment_console
-Replace `my-app` with the name of your app.
 4. Once the command completes, navigate into the app's directory: cd exabyting_assignment_console
 
 ## How to Run the Application Locally
@@ -26,7 +25,6 @@ This will compile the code and start the app in development mode.
 To run the Next.js application from a GitHub repository, follow these steps:
 
 1. Clone the repository to your local machine using Git. Run the following command: git clone https://github.com/rubiyet/exabyting_assignment_console
-Replace `username` with the GitHub username and `repository` with the name of the repository.
 2. Navigate into the cloned directory: cd exabyting_assignment_console
 3. Install the project dependencies by running the following command: npm install
 4. Once the dependencies are installed, start the development server: npm run dev
