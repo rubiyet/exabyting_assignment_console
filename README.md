@@ -16,8 +16,7 @@ To create a Next.js app, follow these steps:
 To run the Next.js application locally, follow these steps:
 
 1. Make sure you are in the root directory of your app in the terminal.
-2. Run the following command to start the development server: npm run dev
-This will compile the code and start the app in development mode.
+2. Run the following command to start the development server: npm run dev (This will compile the code and start the app in development mode.)
 3. You should now see your Next.js application running locally.
 
 ## How to Run the Application from GitHub
